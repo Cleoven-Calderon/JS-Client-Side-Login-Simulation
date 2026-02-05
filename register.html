@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="text/javascript" src="js/darkmode.js" defer></script>
+  <script type="text/javascript" src="js/langchange.js" defer></script>
+
+</head>
+
+<body class="">
+  <div id="header">
+      <div id="logo">
+        <svg width="70px" height="60px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--emojione" preserveAspectRatio="xMidYMid meet" fill="#ffffff" stroke="#ffffff">
+        <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+        <g id="SVGRepo_iconCarrier">
+        <circle cx="32" cy="32" r="30" fill="#5130f8"/>
+        <path d="M20 17.5l3.8 16.6l.8 4.6l.8-4.5l3.3-16.7h6.4l3.4 16.6l.9 4.6l.9-4.4l3.9-16.8h6.2l-8.2 29h-5.8l-3.5-17l-1-5.6l-1 5.6l-3.5 17h-5.6l-8.2-29H20" fill="#ffffff"/>
+        </g>
+        </svg>
+        <div id="comp-name"><h1>WALKnDA.org</h1></div>
+      </div>
+      
+      <div class="dropdown">
+        <button class="dropdown-btn">☰</button>
+        <div class="dropdown-content">
+          <a class="darkmode-item"><span id="darkmodeTextRegister">Dark mode</span><button id="theme-switch"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-28 346-160H160v-186L28-480l132-134v-186h186l134-132 134 132h186v186l132 134-132 134v186H614L480-28Zm0-252q83 0 141.5-58.5T680-480q0-83-58.5-141.5T480-680q-83 0-141.5 58.5T280-480q0 83 58.5 141.5T480-280Zm0-80q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35Z"/></svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-28 346-160H160v-186L28-480l132-134v-186h186l134-132 134 132h186v186l132 134-132 134v186H614L480-28Zm0-112 100-100h140v-140l100-100-100-100v-140H580L480-820 380-720H240v140L140-480l100 100v140h140l100 100Zm0-140q83 0 141.5-58.5T680-480q0-83-58.5-141.5T480-680v400Z"/></svg>
+          </button>
+        </a>
+
+        <a id="languageSetting">
+          <span id="languageTextRegister">Language</span>
+          <select id="language-selector">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+          </select>
+        </a>
+        
+        </div>
+      </div>
+    </div>
+  <div class="container">
+    <h1 id="registerText">Register</h1>
+
+    <form id="registerForm">
+      <div class="form-group">
+        <label for="registerName" id="nameTextRegister">Name:</label>
+        <input type="text" id="registerName" name="name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="registerEmail" id="emailTextRegister">Email:</label>
+        <input type="email" id="registerEmail" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="registerPassword" id="passwordTextRegister">Password:</label>
+        <input type="password" id="registerPassword" name="password" required>
+      </div>
+
+      <div class="form-group">
+        <label for="registerConfirmPassword" id="confirmPasswordTextRegister">Confirm Password:</label>
+        <input type="password" id="registerConfirmPassword" name="confirmPassword" required>
+      </div>
+      <button type="submit" class="btn" id="createAccountButtonRegister">Create Account</button>
+    </form>
+
+    <p class="link-text" id="alreadyHaveAccountText">Already have an account? <a href="login.html" id="loginHereTextRegister">Login here</a></p>
+    <p class="link-text"><a href="home.html" id="back2HomeTextRegister">Back to Home</a></p>
+    <p id="errorMessage" class="error-message"></p>
+  </div>
+
+  <script src="js/auth.js"></script>
+</body>
+</html>
