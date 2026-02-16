@@ -2,6 +2,11 @@
 
 A client-side JavaScript application that simulates user authentication functionality, including account creation and login processes.
 
+## Screenshots
+<img width="1919" height="1079" alt="Screenshot 2026-02-16 134247" src="https://github.com/user-attachments/assets/e02cfe43-2564-48bb-b4af-3f547bd5a85f" />
+
+<img width="1919" height="1079" alt="Screenshot 2026-02-16 134358" src="https://github.com/user-attachments/assets/76fd0875-3601-43b8-875f-39fc00ab0401" />
+
 ## Overview
 
 This project demonstrates basic authentication workflows using client-side JavaScript, HTML, and CSS. It provides a functional simulation of user registration and login systems without backend integration.
@@ -37,6 +42,8 @@ JS-Client-Side-Login-Simulation/
 - Responsive user interface
 - Dashboard access for authenticated users
 - Client-side data persistence
+- Dark mode functionality
+- Language options
 
 ## Technology Stack
 
